@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@500&display=swap');
+
+* {
+    font-family: 'Ubuntu', sans-serif;
+    scrollbar-width: thin;
+    scrollbar-color: #d8dee9 #2e3440;
+    text-align: center;
+}
+
+html {
+    /* Make background gradient and not repeat */
+    height: 100%;
+    background: linear-gradient(180deg, #3b4252 0%, #2e3440 100%);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: #eceff4;
+}
+
+hr {
+    border: 1px solid #eceff4;
+    border-radius: 10px;
+    width: 90%;
+}
+
+ul > li {
+    list-style: none;
+    color: #ECEFF4;
+    display: inline-block;
+    margin-inline: 10px;
+    text-decoration: underline;
+}
+
+a {
+    color: #eceff4;
+    transition: 0.2s;
+}
+
+a:hover {
+    transition: 0.2s;
+    color: #bf616a;
+}
+
+img {
+    width: 100%;
+}
+
+.wfirst {
+    margin-top: -25px;
+}
+
+.wrapper > div:hover {
+    box-shadow: 1px 1px 30px #242831;
+    transition: all 0.4s ease 0s;
+}
+
+.wrapper > div:before {
+    box-shadow: 1px 1px 30px #3d4452;
+}
+
+.wrapper > div {
+    background: linear-gradient(180deg, #5e81ac 0%, #668ab6 100%); 
+    display: inline-table;
+    border-radius: 10px;
+    margin: 10px;
+    width: 80%;
+    height: 100px;
+    color: #2e3440;
+    box-shadow: 1px 1px 10px #3d4452;
+    transition: all 0.4s ease 0s;
+}
+
+.wrapper > div > p {
+    font-size: 20px;
+    vertical-align: middle;
+    text-align: left;
+    margin-left: 20px;
+    margin-bottom: 40px;
+    margin-right: 20px;
+}
+
+.wrapper > div > h2 {
+    font-size: 35px;
+    margin-bottom: 5px;
+}
+
+.wrapper > div > h2 {
+    text-align: left;
+    margin-left: 20px;
+}
+
+.wrapper > div > img {
+    width: 30%;
+    float: right;
+    border-radius: 10px;
+    margin: 5px;
+}
+
+.wsocial > div > img {
+    width: 15%;
+}
+
+.wcrypto > div > img {
+    width: 15%;
+    float: left;
+}
+
+.landchad {
+    width: 100px;
+}
+
+.wcrypto > div {
+    background: linear-gradient(180deg, #aa5eac 0%, #6e5eb9 100%); 
+}
+
+.emailpgp {
+    text-align: left;
+    font-size: 25px;
+}
